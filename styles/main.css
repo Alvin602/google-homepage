@@ -13,3 +13,28 @@ li {
     display: inline-block;
     font-family: Arial;
 }
+
+.search-text input {
+    border-radius: 24px;
+    border: 1px solid #80808029;
+    margin: 20px 10px;
+    height: 44px;
+    width:582px;
+    background-image: url("images/mglass.png");
+}
+
+.submit-buttons input{
+    background-color: #80808029;
+    width:200px;
+    height:36px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+}
+
+#logo {
+    padding-top: 200px;
+}
