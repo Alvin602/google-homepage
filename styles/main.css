@@ -1,3 +1,31 @@
+* {
+    font-family: Arial;
+}
+
+p {
+    font-size: 14px;
+}
+
+header, footer {
+    font-size:12px;
+    color: #2C3E50;
+}
+
+header a,
+footer a {
+    text-decoration:none;
+}
+
+header a:visited,
+footer a:visited {
+    color:#2C3E50;
+}
+
+header a:hover,
+footer a:hover {
+    text-decoration:underline;
+}
+
 header {
     width: 100%;
 }
@@ -14,21 +42,35 @@ li {
     font-family: Arial;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 .search-text input {
     border-radius: 24px;
     border: 1px solid #80808029;
     margin: 20px 10px;
     height: 44px;
     width:582px;
-    background-image: url("images/mglass.png");
+    background: url(images/mglass.png);
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+    padding-left: 30px;
+}
+
+.search-text input:focus {
+    outline-width: 0;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
 }
 
 .submit-buttons input{
     background-color: #80808029;
-    width:200px;
+    color: #2C3E50;
+    width:150px;
     height:36px;
     border: 0px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 main {
@@ -36,5 +78,33 @@ main {
 }
 
 #logo {
-    padding-top: 200px;
+    padding-top: 150px;
+}
+
+.head-left,
+.foot-left {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.head-right,
+.foot-right {
+    position: absolute;
+    right: 30px;
+    display: inline;
+}
+
+header ul li,
+footer ul li {
+    padding-right: 20px;
+} 
+
+.head-right li input {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: 0px;
 }

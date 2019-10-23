@@ -8,15 +8,18 @@
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li>...</li>
-            <li>Sign In</li>
+    <header class="top">
+        <ul class="head-left">
+            <li><a href="#top">About</a></li>
+            <li><a href="#top">Store</a></li>
         </ul>
+        <ul class="head-right">
+            <li><a href="#top">Gmail</a></li>
+            <li><a href="#top">Images</a></li>
+            <li><a href="#top"><img src="images/buttons.png" width=16px height=16px /></a><li>
+            <li><input type=button value="Sign in"></li>
+        </ul>
+
     </header>
     <main>
         <div id="logo">
@@ -24,23 +27,25 @@
         </div>
         <form action="search.html" method="post">
             <section class="search-text">
-                <input type="text">
+                <input type="text" autofocus="autofocus">
             </section>
             <section class=submit-buttons>
                 <input type="submit" value="Google Search">
                 <input type="submit" value="I'm Feeling Lucky">
             </section>
         </form>
-        <h4>It’s almost Drug Take Back Day: Dispose of unneeded medication on Oct 26</h4>
+        <p>It’s almost Drug Take Back Day: <a href="https://recovertogether.withgoogle.com/prevention" target=_blank>Dispose of unneeded medication on Oct 26</a></p>
     </main>
     <footer>
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
+        <ul class="foot-left">
+            <li><a href="#top">Advertising</a></li>
+            <li><a href="#top">Business</a></li>
+            <li><a href="#top">How Search Works</a></li>
+        </ul>
+        <ul class="foot-right">
+            <li><a href="#top">Privacy</a></li>
+            <li><a href="#top">Terms</a></li>
+            <li><a href="#top">Settings</a></li>
         </ul>
     </footer>
 </body>
